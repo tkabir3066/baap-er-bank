@@ -16,8 +16,8 @@ btnSubmit.addEventListener("click", () => {
 
   //   STEP-4 : VERIFY EMAIL AND PASSWORD and check whether valid user or not
   if (email === "sontan@gmail.com" && password === "secret") {
-    console.log("Valid user");
+    window.location.href = "bank.html";
   } else {
-    console.log("Invalid user");
+    alert("tui password bhujle gesos!! toke ami teijjo putro ghosona korlam");
   }
 });
